@@ -1,0 +1,96 @@
+{
+  "customer": {
+    "firstName": "Peter",
+    "lastName": "Tourplan Pacific",
+    "addressLine": "27 Sir William Pickering Drive",
+    "addressLine2": "Burnside",
+    "city": "Christchurch",
+    "email": "",
+    "phone": "12345"
+  },
+  "items": [
+    {
+      "quantities": [
+        {
+          "optionLabel": "Adult",
+          "value": 2,
+          "optionPrice": null
+        },
+        {
+          "optionLabel": "Child",
+          "value": 1,
+          "optionPrice": null
+        }
+      ],
+      "productName": null,
+      "productCode": "PVY1MN",
+      "startTime": null,
+      "startTimeLocal": "2021-03-01 00:00:00",
+      "endTimeLocal": null,
+      "participants": [
+        {
+          "fields": [
+            {
+              "label": "First Name",
+              "value": "Test"
+            },
+            {
+              "label": "Last Name",
+              "value": "Adult 1"
+            }
+          ]
+        },
+        {
+          "fields": [
+            {
+              "label": "First Name",
+              "value": "Test"
+            },
+            {
+              "label": "Last Name",
+              "value": "Adult 2"
+            }
+          ]
+        },
+        {
+          "fields": [
+            {
+              "label": "First Name",
+              "value": "Test"
+            },
+            {
+              "label": "Last Name",
+              "value": "Child 1"
+            }
+          ]
+        }
+      ],
+      "amount": 6.5,
+      "extras": [
+        {
+          "name": "Photo with the koala",
+          "price": 2.0,
+          "quantity": 1,
+          "extraPriceType": "FIXED"
+        }
+      ]
+    }
+  ],
+  "paymentOption": "Invoice",
+  "payments": [
+    {
+      "type": "INVOICE",
+      "amount": 8.5,
+      "currency": "AUD",
+      "date": "2021-02-13T00:29:07Z",
+      "label": "Tourplan Booking Reference: Z4X4P70132",
+      "recipient": "SUPPLIER"
+    }
+  ],
+  "resellerComments": "",
+  "resellerReference": "Z4X4P70132",
+  "sendNotifications": false,
+  "supplierId": 0,
+  "supplierName": null,
+  "totalAmount": 8.5
+}
